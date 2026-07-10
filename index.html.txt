@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>❤️ رسالة ليكي ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<!-- صوت فتح الظرف -->
+<audio id="openSound">
+    <source src="open.mp3" type="audio/mpeg">
+</audio>
+
+<!-- الأغنية -->
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="scene">
+
+<div class="envelope" id="envelope">
+
+<div class="back"></div>
+
+<div class="letter" id="letter">
+
+<div class="paper">
+
+<h1>إلى حبيبتي ❤️</h1>
+
+<p id="typing"></p>
+
+</div>
+
+</div>
+
+<div class="front"></div>
+
+<div class="flap"></div>
+
+</div>
+
+<div class="clickText">
+بتساليني كتير انا ليه عايز نتجوز 
+دوسي هنا عشان تعرفي 💌
+</div>
+
+</div>
+
+<script>
+
+const message = `
+
+قررت اجوبك بالشكل ده 
+عايز نتجوز عشان تبقي جمبي في كل ثانية في حياتي 
+عشان انا عايز اكون جمبك وعايز اخد بالي منك وعايز افضل طول العمر اطبطب عليكي 
+عشان عايز بيتي ينور بيكي انتي .. عايز حياتي تكمل بوجودك جمبي 
+عايزك ام لاولادي❤️
+عايز اجيبلك حاجات حلوه وانا راجع من الشغل
+عايز نكون سوا عشان نتجنن سوا و ننزل و نخرج و سافر ونعمل كل اللي يجي في دماغنا في اي وقت
+عايز اعمل كل حاجه عشانك و عشان تكوني مبسوطه 
+عايز كده دايما الاقيكي بتجري عليا انا وبتجيلي انا
+مش عايز حاجه غير اني اتونس بيكي واكون ليكي امان وحب ولطف واحتواء
+عايز نتجوز عشان وجودك خير وسعادة ياحبيبي
+يمكن ده جزء بسيط كده من ردي علي السؤال ده ❤️  
+
+صباحك حلو زي ضحكتك اللي بتحلي يومي 
+صباحك جميل زيك وزي ملامحك الحلوه المريحه 
+
+شكراً إنك في حياتي ومستحملاني❤️
+
+`;
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
